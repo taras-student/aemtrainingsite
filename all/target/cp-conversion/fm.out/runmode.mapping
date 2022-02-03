@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Thu Feb 03 02:43:31 EET 2022
+publish=trainingsite.all-publish.json
+author=trainingsite.all-author.json
+(default)=trainingsite.all.json

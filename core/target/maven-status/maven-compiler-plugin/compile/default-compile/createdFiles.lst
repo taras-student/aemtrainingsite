@@ -1,0 +1,11 @@
+com\trainingsite\core\listeners\SimpleResourceListener.class
+com\trainingsite\core\schedulers\package-info.class
+com\trainingsite\core\servlets\package-info.class
+com\trainingsite\core\listeners\package-info.class
+com\trainingsite\core\filters\LoggingFilter.class
+com\trainingsite\core\schedulers\SimpleScheduledTask.class
+com\trainingsite\core\filters\package-info.class
+com\trainingsite\core\schedulers\SimpleScheduledTask$Config.class
+com\trainingsite\core\models\HelloWorldModel.class
+com\trainingsite\core\models\package-info.class
+com\trainingsite\core\servlets\SimpleServlet.class

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Training Site - UI apps
+Content-Package-Roots: /apps/trainingsite/clientlibs,/apps/trainingsit
+ e/components,/apps/trainingsite/i18n
+Implementation-Version: 1.0.0-SNAPSHOT
+Import-Package: com.trainingsite.core.models;version="[1.0.0,2.0.0)",o
+ rg.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Build-Jdk-Spec: 1.8
+Content-Package-Type: application
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.trainingsite:trainingsite.ui.apps:1.0.0-SNAPSH
+ OT
+Content-Package-Description: UI apps package for Training Site
+

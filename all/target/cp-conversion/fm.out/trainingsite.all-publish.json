@@ -1,0 +1,12 @@
+{
+  "id":"com.trainingsite:trainingsite.all:slingosgifeature:publish:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/trainingsite/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.trainingsite:trainingsite.all:1.0.0-SNAPSHOT|com.trainingsite:trainingsite.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id":"com.trainingsite:trainingsite.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~trainingsite":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/trainingsite.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.trainingsite:trainingsite.all:1.0.0-SNAPSHOT|com.trainingsite:trainingsite.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~trainingsite":    {
+      "mobile.resourceTypes":[
+        "trainingsite/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.trainingsite:trainingsite.all:1.0.0-SNAPSHOT|com.trainingsite:trainingsite.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

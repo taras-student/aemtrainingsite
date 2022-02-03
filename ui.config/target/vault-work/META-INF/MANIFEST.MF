@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Training Site - UI config
+Content-Package-Roots: /apps/trainingsite/osgiconfig
+Implementation-Version: 1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.trainingsite:trainingsite.ui.config:1.0.0-SNAP
+ SHOT
+Content-Package-Description: UI config package for Training Site
+

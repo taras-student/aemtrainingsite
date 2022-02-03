@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-Category: Training Site
+Bundle-Description: Core bundle for Training Site
+Bundle-ManifestVersion: 2
+Bundle-Name: Training Site - Core
+Bundle-SymbolicName: trainingsite.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.trainingsite.core.filters;version="1.0";uses:="jav
+ ax.servlet",com.trainingsite.core.listeners;version="1.0";uses:="org.
+ apache.sling.api.resource.observation",com.trainingsite.core.models;v
+ ersion="1.0";uses:="javax.annotation,org.apache.sling.api.resource,or
+ g.apache.sling.models.annotations,org.apache.sling.models.annotations
+ .injectorspecific",com.trainingsite.core.schedulers;version="1.0",com
+ .trainingsite.core.servlets;version="1.0";uses:="javax.servlet,org.ap
+ ache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.trainingsite.core.filters;version="[1.0,2)",com.
+ trainingsite.core.listeners;version="[1.0,2)",com.trainingsite.core.s
+ chedulers;version="[1.0,2)",com.trainingsite.core.servlets;version="[
+ 1.0,2)",javax.servlet;version="[3.0,4)",org.apache.sling.api;version=
+ "[2.3,3)",org.apache.sling.api.request;version="[2.5,3)",org.apache.s
+ ling.api.resource;version="[2.13,3)",org.apache.sling.api.resource.ob
+ servation;version="[1.2,2)",org.apache.sling.api.servlets;version="[2
+ .3,3)",org.apache.sling.models.annotations;version="[1.5,2)",org.apac
+ he.sling.models.annotations.injectorspecific;version="[1.1,2)",org.sl
+ f4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.trainingsite.core.filters.LoggingFilte
+ r.xml,OSGI-INF/com.trainingsite.core.listeners.SimpleResourceListener
+ .xml,OSGI-INF/com.trainingsite.core.schedulers.SimpleScheduledTask.xm
+ l,OSGI-INF/com.trainingsite.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.trainingsite.core.models.HelloWorldModel
+

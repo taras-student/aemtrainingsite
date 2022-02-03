@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: Training Site - UI content
+Content-Package-Roots: /conf/trainingsite,/content/dam/trainingsite/as
+ set.jpg,/content/experience-fragments/trainingsite,/content/trainings
+ ite
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.trainingsite:trainingsite.
+ ui.apps:1.0.0-SNAPSHOT=maven:com.trainingsite:trainingsite.ui.apps:1.
+ 0.0-SNAPSHOT:zip
+Content-Package-Dependencies: com.trainingsite:trainingsite.ui.apps:1.
+ 0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: content
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.trainingsite:trainingsite.ui.content:1.0.0-SNA
+ PSHOT
+Content-Package-Description: UI content package for Training Site
+

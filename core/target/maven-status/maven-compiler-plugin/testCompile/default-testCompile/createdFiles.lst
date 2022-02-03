@@ -1,0 +1,7 @@
+com\trainingsite\core\schedulers\SimpleScheduledTaskTest.class
+com\trainingsite\core\servlets\SimpleServletTest.class
+com\trainingsite\core\testcontext\AppAemContext$1.class
+com\trainingsite\core\listeners\SimpleResourceListenerTest.class
+com\trainingsite\core\filters\LoggingFilterTest.class
+com\trainingsite\core\models\HelloWorldModelTest.class
+com\trainingsite\core\testcontext\AppAemContext.class

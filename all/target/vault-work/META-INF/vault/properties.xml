@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Training Site - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">trainingsite.all</entry>
+<entry key="created">2022-02-03T00:43:29.817Z</entry>
+<entry key="groupId">com.trainingsite</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.trainingsite</entry>
+<entry key="description">All content package for Training Site</entry>
+<entry key="artifactId">trainingsite.all</entry>
+</properties>
